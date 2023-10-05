@@ -1,0 +1,26 @@
+.menubar{
+    border: 1px solid black;
+    background-color: rgb(153, 212, 158);
+}
+.logo{
+    display: inline-block;
+}
+.prodname{
+    text-align: left;
+}
+.links{
+    display: inline-block;
+    float: right;
+    left: 2vw;
+    bottom: 5vh;
+}
+.sidelinks{
+    position: relative;
+    display: inline-block;
+    width: 10vh;
+}
+.content{display: inline-block;}
+.side-content{display: inline-block; float: right;}
+.sidelinks a{
+    display: block;
+}
