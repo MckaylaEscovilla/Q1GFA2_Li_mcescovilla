@@ -1,26 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 .menubar{
     border: 1px solid black;
     background-color: rgb(153, 212, 158);
-}
-.logo{
-    display: inline-block;
+    height: 6vh;
 }
 .prodname{
-    text-align: left;
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 15px;
 }
 .links{
     display: inline-block;
     float: right;
-    left: 2vw;
-    bottom: 5vh;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+.container{
+    text-align: center;
+    margin-top: 25px;
+}
+.container div{
+    min-height: 40vh;
 }
 .sidelinks{
-    position: relative;
     display: inline-block;
-    width: 10vh;
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 10vw;
+    float: left;
+    background-color: rgb(165, 217, 221);
 }
-.content{display: inline-block;}
-.side-content{display: inline-block; float: right;}
 .sidelinks a{
+    padding: 10px;
     display: block;
+}
+.centerblock{
+    display: inline-block;
+    border: 1px solid black;
+    width: 68vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-align: start;
+    background-color: rgb(224, 147, 224);
+}
+.centerblock img{
+    width: 30vw;
+    height: 25vw;
+    margin-top: 10px;
+    margin-bottom: 1vh;
+}
+.filler{
+    display: inline-block;
+    border: 1px solid black;
+    margin-right: 10px;
+    width: 15vw;
+    float: right;
+    background-color: pink;
+}
+.filler img{
+    width: 10vw;
+    height: 7vw;
 }
